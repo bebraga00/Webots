@@ -1,0 +1,4 @@
+MODELAR LIDAR
+
+Variar o ruído conforme a distância;
+Variar a frequência conforme o desejado (5-15);

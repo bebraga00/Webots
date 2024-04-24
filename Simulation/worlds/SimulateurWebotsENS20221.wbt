@@ -1,0 +1,798 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "../protos/TT02_2023b.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 0.00010147423393352286 -0.6953522777526215 8.587546446405385
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.5 0
+  rotation 0 1 0 0
+  floorSize 6 3
+}
+Solid {
+  translation 2 0 0
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Solid {
+      translation 0.5 -0.5 0.19
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation 0.5 -0.5 0.19
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+  ]
+  name "virage int 1"
+}
+Solid {
+  translation 3 0 0
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Solid {
+      translation -0.5 -0.5 0.19
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation 1.5 -0.5 0.19
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation 0.9999328652571459 0.00013669890230261217 0.18641621675642187
+      rotation 0.9999994016285287 -0.0008107633217618289 0.0007344422515663463 1.5701434203623894
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -0.000204214 -0.000264709 0.19445
+      rotation 0.9999993131783986 -0.000870021269650091 0.0007853061323694405 1.5701567172843045
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "virage ext 1"
+}
+Solid {
+  translation -3 0 0
+  rotation 0 0 1 1.5708
+  children [
+    Solid {
+      translation -1.5 -0.5 0.19
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation 0.5 -0.5 0.19
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation 0.000206976 -0.000162899 0.194515
+      rotation 0.9999992971754473 0.0008634684077961188 -0.0008124474875235588 1.5701550113319378
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -0.999921927909201 -0.00011452341361328777 0.18616255328589176
+      rotation 0.9999992997901382 0.0008044938073799692 -0.000867876112575779 1.5698582607204963
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "virage ext 2"
+}
+Solid {
+  translation -2 0 0
+  rotation 0 0 1 1.5708
+  children [
+    Solid {
+      translation -0.5 -0.5 0.19
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+    Solid {
+      translation -0.5 -0.5 0.19
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_virage.obj"
+        ]
+      }
+    }
+  ]
+  name "virage int 2"
+}
+Solid {
+  children [
+    Solid {
+      translation 0.9999872343899586 0.0031787337899367163 0.18882460998319694
+      rotation 0.9999993374400306 -0.000963355412834971 -0.0006301316119518195 1.5700976845636316
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -1.0000104224551036 0.002393461691247989 0.18923469041123758
+      rotation 0.9999996405625882 0.0006600633422266415 0.0005321570057867624 1.5699063204942716
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -1.1705538478016968e-05 -0.00553965904263265 0.19041923940664973
+      rotation 0.9999999494652406 -0.0003024783303151959 -9.785895814872387e-05 1.5699975678604003
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "ligne droite int 1 "
+}
+Solid {
+  translation 0 -1 0
+  children [
+    Solid {
+      translation 1.000025212988778 0.0030313322712407498 0.1898319790284675
+      rotation 0.9999994183315152 -0.0006736285462242378 -0.0008423545649744386 1.570006889164431
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -1.0000401657416986 0.002876068250426078 0.19005584136072382
+      rotation 0.9999994663987418 0.0005762505548991451 0.0008574016152173111 1.569901469240517
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -4.074596732492209e-06 -0.005907563024586837 0.18859092420935447
+      rotation 0.9999999952116833 -9.673904420455413e-05 1.4771282415605854e-05 1.5700943479240694
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "ligne droite int 2"
+}
+Solid {
+  translation 0 1 0
+  rotation 0 1 0 0
+  children [
+    Solid {
+      translation 0.9999541139030599 -0.012875849204299517 0.19067441611184277
+      rotation 0.9999930015780948 -0.0028813546988656342 -0.0023863339942140752 1.5699930632403747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -1.0000237327562511 -0.014854104260251688 0.18999785321353294
+      rotation 0.9999820310793771 -0.004216714841701927 -0.004261083701052888 1.5698635254097508
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 0.00011167335067900169 0.017089371639420037 0.1892018169829166
+      rotation 0.9999864293846925 -0.0037172728901877965 -0.003650058727376515 1.5700780742712082
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 2.000053143290021 0.011702918024484088 0.1883959893796525
+      rotation 0.9999913665964499 -0.0031989775961202742 -0.0026520322215003787 1.569970289566579
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -2.0001714358167737 -0.0010593307848587585 0.18919416657016486
+      rotation 0.999999922658971 -0.0001888988129401127 -0.00034496273842391103 1.5701094544051692
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "ligne droite ext 1 "
+}
+Solid {
+  translation 0 -2 0
+  children [
+    Solid {
+      translation 1.000109200244916 0.016778165590243477 0.1888446210216412
+      rotation 0.9999868408176772 -0.003389206884279255 -0.0038511645222429254 1.5699113233749256
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -1.000097842823394 0.006376329095346245 0.18811187172821087
+      rotation 0.9999989870912469 -0.0011515939006163242 -0.0008364496207129986 1.5701186398638267
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -6.82011418208333e-05 -0.016829389728411748 0.18971291375102345
+      rotation 0.9999870030956407 -0.0034761522243047867 -0.0037296119788084773 1.5698887450983432
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 2.0001885706604288 -0.001150512154677763 0.1902842643339134
+      rotation 0.9999998816986935 0.00047932893225891633 8.274281697058789e-05 1.5701270705007198
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+    Solid {
+      translation -2.0001065795603816 -0.005173492322799511 0.19051060369198342
+      rotation 0.9999982576109285 -0.001549719144310941 -0.0010407428504684065 1.569968763195124
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 0.5
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Mesh {
+        url [
+          "https://raw.githubusercontent.com/ajuton-ens/CourseVoituresAutonomesSaclay/main/Simulateur/SimulateurWebotsENS2022/ImageToStl.com_bloc_1m.obj"
+        ]
+      }
+      physics Physics {
+      }
+    }
+  ]
+  name "ligne droite ext 2"
+}
+TT02_2023b {
+  translation -0.11 -1.5 0.0394416
+  controller "controller_jaune"
+  color 0.86 0.8 0.3
+}
+Floor {
+  translation 0 -1.5 0
+  size 0.5 1
+  appearance Parquetry {
+    type "chequered"
+    colorOverride 0 0 0.498039
+    IBLStrength 25
+  }
+}
